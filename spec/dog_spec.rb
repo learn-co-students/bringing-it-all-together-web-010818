@@ -114,6 +114,7 @@ describe "Dog" do
       new_dog = Dog.find_or_create_by({name: 'teddy', breed: 'irish setter'})
 
       expect(new_dog.id).to eq(3)
+  
     end
   end
 
